@@ -1,0 +1,23 @@
+{
+  "name": "ts-npm-temp",
+  "version": "0.0.3",
+  "description": "ts-npm-template",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BIosuper/ts-npm-template.git"
+  },
+  "author": "jiangchao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BIosuper/ts-npm-template/issues"
+  },
+  "homepage": "https://github.com/BIosuper/ts-npm-template#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
