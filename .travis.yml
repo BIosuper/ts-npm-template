@@ -1,0 +1,10 @@
+deploy:
+  provider: npm
+  email: 991088559@qq.com
+  api_key:
+    secure: aEBdntR61h/mbPl9DwRM0Tg6ve8QuRzf8gN0rk0BIHyXgxsVW28QivB9Hb3hnziJP32AKnhKuFHvC/am5yzYt38ZO4ylzCxoQKapSocfp3u8mRPi2TOTnK0GjcDqd9rlW445lKFwQu8foCz7socyGDskmSYPaFyac+Yh5EHvi9ZlYoeIW0xIWV136UL6vO97oJiMLnAP3qJ8PPyVHzs6X2f0kmabaWq6G7paQBqbqFiIcsCLDdaUj90Qhp2i/AgWu46VVU9myJwAaUGOkVoTirxEFt3z3MzcNSBg3jseYB0/lj76jUzFAG7CD7lPcNB1j0ikMrZJqXSUCpRZmapUii0k/xAQdmx4nLYFKK5PI0M4q4U+1qF/bfPSk3apI71pJTWwvPyltzGbjZkVYXZ59tVbOa8h38DIG7ui3UOMDdGU9DrYdr0f5sJThMnnByFSzz4O0Hyk80eQei4MJ63Jl8CUZshJ3PuMYUnzhEaptMeOtDWrvwW+8hd0y9hcSkC8D3z7BwO2yWpkUgSsr+fHHQaGRoOxQqeYspnH00PWXp+RkHk+HjIREmuO8aQ4v7tG8RYplP8FycrTyPBE1VGgmW70IABHDv5V0E1v0KSMmaEOerOkpRJYK6lXhEMIqEJZDcLiPjMnVBScoLXWIBxvnEgJ2+cdXdreece8+QD/9/s=
+  on:
+    tags: true
+    repo: BIosuper/ts-npm-template
+    branch: main
+  skip_cleanup: 'true'
